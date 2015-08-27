@@ -1,6 +1,6 @@
 {
   "name": "language-bazel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Build (bazel.io) language support for Atom",
   "keywords": [
     "Bazel",
@@ -13,6 +13,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
