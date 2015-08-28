@@ -1,0 +1,132 @@
+'.source.build':
+  # Java
+  'java_binary':
+    'prefix': 'jb'
+    'body': """
+      java_binary(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'java_library':
+    'prefix': 'jl'
+    'body': """
+      java_library(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'java_test':
+    'prefix': 'jt'
+    'body': """
+      java_test(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+
+  # Python
+  'python_binary':
+    'prefix': 'pb'
+    'body': """
+      py_binary(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'python_library':
+    'prefix': 'pl'
+    'body': """
+      py_library(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'python_test':
+    'prefix': 'pt'
+    'body': """
+      py_test(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+
+  # C / C++
+  'cc_binary':
+    'prefix': 'cb'
+    'body': """
+      cc_binary(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'cc_library':
+    'prefix': 'cl'
+    'body': """
+      cc_library(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'cc_test':
+    'prefix': 'ct'
+    'body': """
+      cc_test(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+
+  # Common
+  'genrule':
+    'prefix': 'gr'
+    'body': """
+      genrule(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+        outs = [
+          $3
+        ],
+        cmd = "$4"
+      )
+    """
+  'filegroup':
+    'prefix': 'fg'
+    'body': """
+      filegroup(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'test_suite':
+    'prefix': 'ts'
+    'body': """
+      test_suite(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
