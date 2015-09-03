@@ -1,6 +1,6 @@
 {
   "name": "language-bazel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Build (bazel.io) language support for Atom",
   "keywords": [
     "Bazel",
