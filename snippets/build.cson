@@ -30,6 +30,47 @@
         ],
       )
     """
+  'java_import':
+    'prefix': 'ji'
+    'body': """
+      java_import(
+        name = "$1",
+        jars = [
+          $2
+        ],
+      )
+    """
+  'java_plugin':
+    'prefix': 'jp'
+    'body': """
+      java_plugin(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  # Android
+  'android_binary':
+    'prefix': 'ab'
+    'body': """
+      android_binary(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'android_library':
+    'prefix': 'al'
+    'body': """
+      android_library(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
 
   # Python
   'python_binary':
@@ -94,8 +135,39 @@
         ],
       )
     """
+  # Shell
+  'sh_binary':
+    'prefix': 'sb'
+    'body': """
+      sh_binary(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'sh_library':
+    'prefix': 'sl'
+    'body': """
+      sh_library(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
+  'sh_test':
+    'prefix': 'st'
+    'body': """
+      sh_test(
+        name = "$1",
+        srcs = [
+          $2
+        ],
+      )
+    """
 
-  # Common
+  # General
   'genrule':
     'prefix': 'gr'
     'body': """
