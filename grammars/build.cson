@@ -2,6 +2,7 @@
 'name': 'BUILD'
 'fileTypes': [
   'BUILD'
+  'BUCK'
 ]
 'injections':
   'source.build':

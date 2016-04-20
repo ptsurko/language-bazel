@@ -1,12 +1,13 @@
 {
   "name": "language-bazel",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Build (bazel.io) language support for Atom",
   "keywords": [
     "Bazel",
     "Build",
     "Skylark",
-    "BUILD"
+    "BUILD",
+    "Buck"
   ],
   "repository": "https://github.com/ptsurko/language-bazel",
   "license": "MIT",
