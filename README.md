@@ -43,6 +43,13 @@ ts  ->  test_suite
 ```
 
 ## Changelog
+
+### 0.2.3 - 25-04-2016
+* Handle BUCK build files as well
+
+### 0.2.2 - 08-11-2015
+* Added settings file to configure comments chars
+
 ### 0.2.1 - 03-09-2015
 * Added more snippets for java/android/shell rules
 
