@@ -44,6 +44,9 @@ ts  ->  test_suite
 
 ## Changelog
 
+### 0.3.0 - 27-0402016
+* Added support for bzl files
+
 ### 0.2.3 - 25-04-2016
 * Handle BUCK build files as well
 

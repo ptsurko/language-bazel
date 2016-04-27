@@ -1,0 +1,8 @@
+'scopeName': 'source.bzl'
+'name': 'Skylark'
+'fileTypes': [
+  'bzl'
+]
+'patterns': [
+  'include': 'source.python'
+]
