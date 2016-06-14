@@ -44,6 +44,9 @@ ts  ->  test_suite
 
 ## Changelog
 
+### 0.3.1 - 14-06-2016
+* Added support for WORKSPACE files
+
 ### 0.3.0 - 27-04-2016
 * Added support for bzl files
 

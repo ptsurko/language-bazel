@@ -3,6 +3,7 @@
 'fileTypes': [
   'BUILD'
   'BUCK'
+  'WORKSPACE'
 ]
 'injections':
   'source.build':
