@@ -24,26 +24,26 @@
   'comment':
     'name': 'punctuation.comment.build'
     'match': '#[^\\n]*\\n'
-  'string':
-    'patterns': [
+  string:
+    patterns: [
       {
-        'begin': '"""'
-        'end': '"""'
-        'name': 'string.quoted.triple.build'
+        begin: '"""'
+        end: '"""'
+        name: 'string.quoted.triple.build'
       }
       {
-        'match': '(\')([^\']*)(\')'
-        'captures':
-          '0': 'name': 'punctuation.string.single.begin.build'
-          '1': 'name': 'string.quoted.single.build'
-          '2': 'name': 'punctuation.string.single.end.build'
+        match: '(\')([^\']*)(\')'
+        captures:
+          1: name: 'punctuation.string.single.begin.build'
+          2: name: 'string.quoted.single.build'
+          3: name: 'punctuation.string.single.end.build'
       }
       {
-        'match': '(\")([^\"]*)(\")'
-        'captures':
-          '0': 'name': 'punctuation.string.double.begin.build'
-          '1': 'name': 'string.quoted.double.build'
-          '2': 'name': 'punctuation.string.double.end.build'
+        match: '(\")([^\"]*)(\")'
+        captures:
+          1: name: 'punctuation.string.double.begin.build'
+          2: name: 'string.quoted.double.build'
+          3: name: 'punctuation.string.double.end.build'
       }
     ]
   'number':
