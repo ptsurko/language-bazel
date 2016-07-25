@@ -44,6 +44,9 @@ ts  ->  test_suite
 
 ## Changelog
 
+### 0.3.2 - 25-07-2016
+* Fixed highlighting for strings
+
 ### 0.3.1 - 14-06-2016
 * Added support for WORKSPACE files
 
