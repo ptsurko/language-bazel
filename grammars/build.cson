@@ -2,6 +2,7 @@ scopeName: 'source.build'
 name: 'BUILD'
 fileTypes: [
   'BUILD'
+  'BUILD.bazel'
   'BUCK'
   'WORKSPACE'
 ]
